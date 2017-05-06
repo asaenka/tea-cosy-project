@@ -65,6 +65,12 @@ body {
   background-size: cover;
 }
 
+.project-body__shop {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
 .mission-content {
   width: 1240px;
   height: 103px;
@@ -79,7 +85,7 @@ body {
   text-align: center;
 
   font-family: Helvetica;
-  font-size: 24px;
+  font-size: 33px;
   font-weight: bold;
 
   color: seashell;
@@ -101,13 +107,11 @@ body {
   text-align: center;
   width: 1000px;
   margin: auto;
-  padding-top: 70px;
 }
 
 .shop-choice__title {
-
   font-family: Helvetica;
-  font-size: 24px;
+  font-size: 33px;
   font-weight: bold;
 
   padding: 10px;
@@ -130,18 +134,27 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin-top: 10px;
 }
 
-.shop-offer__picture img{
+.shop-offer__picture img {
   height: 200px;
   width: 300px;
-  margin: 10px;
   display: block;
 }
 
-.shop-offer__picture-caption {
-  text-align: center;
+.shop-offer__picture + .shop-offer__picture {
+  margin-left: 25px;
+}
 
+.shop-offer__picture {
+  margin-bottom: 15px;
+}
+
+.shop-offer__picture-caption {
+  margin-top: 10px;
+
+  text-align: center;
   font-family: Helvetica;
   font-size: 22px;
   font-weight: bold;
